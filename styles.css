@@ -11,6 +11,8 @@ header{
     width: 100%;
     text-align: center;
     display: block;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 header h2{
@@ -26,6 +28,8 @@ footer{
     width: 100%;
     text-align: center;
     display: block;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 footer h4{
@@ -46,7 +50,7 @@ footer p{
 button{
     display: block;
     padding: .5rem;
-    margin: .5rem;
+    margin: .5rem .5rem .5rem 1rem;
     background-color: #F2C94C;
     border: none;
 }
@@ -69,4 +73,12 @@ button{
 
 .section p{
     font-size: 0.75rem;
+    margin-left: 1rem;
 }
+
+@media only screen and (max-width: 600px) {
+    .section {
+        max-width: 80%;
+        margin: auto auto;
+    }
+  }
